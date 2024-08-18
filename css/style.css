@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header {
+    background: #F0FFF0;
+}
+
+header .navbar .nav-link {
+    color: black;
+}
+
+header .navbar .nav-item {
+    margin-left: 35px;
+}
+
+header .navbar .nav-item .signin {
+    background: #21B573;
+    padding: 10px 28px;
+    border-radius: 35px;
+    color: white;
+}
+
+.sign-in :hover {
+    background: rgb(217, 0, 255);
+}
+
+.banner-section {
+    width: 100%;
+    background: #F0FFF0;
+    padding: 0px 0px 60px;
+}
+
+.banner-section .content h6 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+    color: #FD511A;
+}
+
+.banner-section .content h1 {
+    width: 66%;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: left;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.banner-section .content {
+    margin-top: 97px;
+}
+
+.banner-section .content h1 span {
+
+    color: #21B573;
+}
+
+.banner-section .content p {
+    width: 63%;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: left;
+}
+
+.get-started .btn-info {
+    background: #21B573;
+    padding: 12px 36px;
+    border-radius: 35px;
+    color: white;
+    border: 1px solid black;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-top: 25px;
+
+}
+
+.feature-section {
+    width: 100%;
+    padding: 30px 0px 50px;
+}
+
+.feature-section .feature-inner {
+    background: #F0FFF0;
+    text-align: center;
+    padding: 60px 0px 40px;
+    border-radius: 10px;
+}
+
+.feature-section .feature-inner h4 {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+
+}
+
+.feature-section .feature-inner:hover {
+    box-shadow: 0px 20px 40px 0px #0000001A;
+
+}
+
+.online-course {
+    width: 100%;
+    padding: 60px 0px;
+}
+
+.online-course h2 {
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+
+}
+
+.online-course .tittle {
+    margin-bottom: 50px;
+}
+
+.online-course .c-card {
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    border-radius: 18px;
+    padding: 20px;
+
+}
+
+.online-course .c-card .cc-body h3 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+
+}
+
+.online-course .c-card .cc-body {
+    margin: 20px 0px 35px;
+}
+
+.c-btn .btn-info {
+    background: #21B573;
+    padding: 8px 28px;
+    border-radius: 35px;
+    color: white;
+    margin-top: 25px;
+    border: 1px solid #21B573;
+
+}
+
+.online-course .cc-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial-section {
+    width: 100%;
+    padding: 0px 0px 60px;
+}
+
+.testimonial-section .tittle {
+    margin-bottom: 60px;
+}
+
+.testimonial-section .tittle h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+}
+
+.testimonial-section .t-img {
+    text-align: right;
+}
+.testimonial-section p{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+width: 70%;
+}
+footer{
+    width: 100%;
+    background: #282531;
+    padding: 50px 0px 10px;
+    color: white;
+}
+footer p{
+    width: 66%;
+}
+footer h6{
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+
+}
+footer ul{
+    margin: 0px;
+    padding: 0px;
+}
+footer ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+footer .copyright{
+
+}
+footer .copyright p{
+    margin-top: 80px;
+    width: 100%;
+    text-align: center;
+    color: #CDCDCD;
+
+}
